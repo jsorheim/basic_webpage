@@ -1,0 +1,15 @@
+#head {
+	background-color: red;
+}
+
+#sidebar {
+	background-color: green;
+}
+
+#content {
+	background-color: blue;
+}
+
+#footer {
+	background-color: orange;
+}
