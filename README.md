@@ -2,6 +2,16 @@
 
 # installation
 
+Before you can do anything, make sure you have 'git' installed.  To check if git is installed, go into your terminal and type:
+    
+    git --version
+
+If you see something like:
+
+    git version 1.9.3 (Apple Git-50)
+    
+then you are good to go.    
+
 ### step one: preparing your computer
 
 Before you install this project, you should make a folder for your personal-coding projects.  In the terminal,
