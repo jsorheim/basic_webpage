@@ -1,0 +1,1 @@
+this readme will talk about pushing and pulling from git
