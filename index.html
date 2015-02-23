@@ -3,28 +3,32 @@
 
 <head>
   <title>Basic Webpage</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="index.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<script src="index.js"></script>
+
 </head>
 
 <body style="border: 1px solid black; width: 1000px; height: 800px; margin-left: 50px; margin-top: 50px;">
 
-	<div id="head" style=>
+	<div id="head" class="col-md-12">
 		<h1>This is the head</h1>
 	</div>
 
 
-	<div id="sidebar">
-		<h1>sidebar area</h1>
+	<div class="col-md-12">
+		<div id="sidebar" class="col-md-4">
+			<h1>sidebar area</h1>
+		</div>
+
+
+		<div id="content" class="col-md-8">
+			<h1>This is the content</h1>
+		</div>
 	</div>
-
-
-	<div id="content">
-		<h1>This is the content</h1>
-	</div>
-
-
-	<div id="footer">
+	<div id="footer" class="col-md-12">
 		<h1>This is the footer</h1>
 	</div>
 
